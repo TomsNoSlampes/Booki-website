@@ -180,15 +180,24 @@ h3 {
 
 .main-card {
     background-color: white;
-    width: 300px;
-    height: 270px;
+    border-radius: 25px;
+    width: 260px;
+    height: 230px;
     margin: 20px;
 }
+
+.show-more {
+    width: 100%;
+}
+
 
 /* Side-bar section ------------------------------------------------------------------------------ */
 
 .sidebar-title {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .side-bar {
@@ -200,7 +209,8 @@ h3 {
 .sidebar-card {
     flex: 1;
     background-color: white;
-    width: 300px;
+    border-radius: 25px;
+    width: 270px;
     height: 270px;
     margin: 20px;
 }
@@ -220,7 +230,7 @@ h3 {
   .card {
     background-color: #F2F2F2;
     padding: 5px;
-    border-radius: 50px;
+    border-radius: 25px;
     text-align: center;
     font-size: 20px;
     display: flex;
