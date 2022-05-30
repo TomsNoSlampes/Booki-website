@@ -2,7 +2,7 @@
     font-family: 'Raleway', sans-serif;
   }
 
-/* Header section */
+/* Header section ---------------------------------------------------------------------------------------------- */
 
 .header {
     width: 100%;
@@ -39,11 +39,7 @@
     border-top: solid thin #0065FC;
   }
 
-/* Header section */
-
-/* ------------------------------------------------------------------------------------------------ */
-
-/* Search section */
+/* Search section ------------------------------------------------------------------------------------------------ */
 
 .search-section {
     margin: 40px;
@@ -92,13 +88,55 @@ h3 {
     font-size: 20px;
 }
 
-/* Search section */
+/* Filter section ------------------------------------------------------------------------------------------------ */
 
-/* ------------------------------------------------------------------------------------------------ */
+.btn {
+    display: flex;
+    margin: 20px;
+    padding: 25px 25px;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+}
 
-/* Filter section */
+.info-btn {
+    margin: 10px;
+    font-size: 20px;
+}
 
-/* font-awsome rules */
+.my-button {
+    display: flexbox;
+    margin: 20px;
+    border-radius: 50% 50%;
+    border: 3px solid #F2F2F2
+}
+
+/* .filter-name {
+} */
+
+.filter-section {
+    margin: 0px 40px 0px 40px; 
+}
+
+.filter-btn {
+    display: inline-flex;
+}
+
+.filters {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.info-txt {
+    display: block;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+
+/* font-awsome buttons */
 
 .fa-money-bill-wave {
     color: #0065FC;
@@ -116,114 +154,58 @@ h3 {
     color: #0065FC;
 }
 
-.flt-btn {
-    padding: 25px;
-    background-color: #DEEBFF;
-    border-radius: 50%;
-}
-
-.info-btn {
-    margin: 10px;
-    font-size: 20px;
-}
-
-/* font-awsome rules */
-
-.filter-section {
-    margin: 0px 40px 0px 40px; 
-}
-
-.btn-group-filter {
-    display: inline-flex;
-}
-
-.filters {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-}
-
-.button-filter-1 {
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 3px solid #F2F2F2;
-    border-radius: 40px;
-    margin: 20px;
-    font-size: 20px;
-    background-color: white;
-
-}
-
-.button-filter-2 {
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 3px solid #F2F2F2;
-    border-radius: 40px;
-    margin: 20px;
-    font-size: 20px;
-    background-color: white;
-}
-
-.button-filter-3 {
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 3px solid #F2F2F2;
-    border-radius: 40px;
-    margin: 20px;
-    font-size: 20px;
-    background-color: white;
-}
-
-.button-filter-4 {
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 3px solid #F2F2F2;
-    border-radius: 40px;
-    margin: 20px;
-    font-size: 20px;
-    background-color: white; 
-}
-
-.info-txt {
-    display: block;
-    align-items: center;
-    font-size: 20px;
-    margin-top: 0px;
-}
-
-/* Filter section */
-
-/* ------------------------------------------------------------------------------------------------ */
-
-/* Main section  */
+/* Main section ------------------------------------------------------------------------------------------------ */
 
 .main {
-    display: flex;
     margin: 40px;
 }
 
-.accommodations-section {
-    flex: 3;    
+.main-title {
+    width: 100%;
 }
 
-/* .accomodation-cards {
-    
-} */
+.accommodations-section {
+    display: flex;
+} 
+
+.accommodations-cards {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    flex: 3;
+    margin-right: 40px;
+    background-color: #F2F2F2;
+    border-radius: 25px;    
+}
+
+.main-card {
+    background-color: white;
+    width: 300px;
+    height: 270px;
+    margin: 20px;
+}
+
+/* Side-bar section ------------------------------------------------------------------------------ */
+
+.sidebar-title {
+    width: 100%;
+}
 
 .side-bar {
     flex: 1;
+    background-color: #F2F2F2;
+    border-radius: 25px;
 }
 
-/* Main section  */
+.sidebar-card {
+    flex: 1;
+    background-color: white;
+    width: 300px;
+    height: 270px;
+    margin: 20px;
+}
 
-/* ------------------------------------------------------------------------------------------------ */
-
-/* Activities section */
+/* Activities section ------------------------------------------------------------------------------------------------ */
 
 .activities-section {
     margin: 40px;
@@ -232,10 +214,11 @@ h3 {
 .card-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
   
   .card {
-    background-color: #EAEAEA;
+    background-color: #F2F2F2;
     padding: 5px;
     border-radius: 50px;
     text-align: center;
@@ -254,9 +237,7 @@ h3 {
 
 /* Activities section */
 
-/* ------------------------------------------------------------------------------------------------ */
-
-/* Footer section */
+/* Footer section ------------------------------------------------------------------------------------------------ */
 
 .footer {
     display: flex;
@@ -284,8 +265,5 @@ h2 {
 .footer-links {
     padding-bottom: 10px;
 }
-
-/* Footer section */
-
 
 /* ------------------------------------------------------------------------------------------------ */
