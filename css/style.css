@@ -200,6 +200,62 @@ h3 {
 
 /* ------------------------------------------------------------------------------------------------ */
 
+/* Main section  */
+
+.main {
+    display: flex;
+    margin: 40px;
+}
+
+.accommodations-section {
+    flex: 3;    
+}
+
+/* .accomodation-cards {
+    
+} */
+
+.side-bar {
+    flex: 1;
+}
+
+/* Main section  */
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* Activities section */
+
+.activities-section {
+    margin: 40px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #EAEAEA;
+    padding: 5px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card img {
+    height: 100%;
+  }
+  
+  .card img {
+    padding: 10px;
+  }
+
+/* Activities section */
+
+/* ------------------------------------------------------------------------------------------------ */
+
 /* Footer section */
 
 .footer {
