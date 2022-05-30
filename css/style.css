@@ -171,7 +171,7 @@ h3 {
 .accommodations-cards {
     display: flex;
     flex-flow: wrap row;
-    justify-content: space-around;
+    justify-content: center;
     flex: 3;
     margin-right: 40px;
     background-color: #F2F2F2;
@@ -181,15 +181,12 @@ h3 {
 .main-card {
     background-color: white;
     border-radius: 25px;
-    width: 260px;
-    height: 210px;
     margin: 20px;
 }
 
 .show-more {
     width: 100%;
 }
-
 
 /* Side-bar section ------------------------------------------------------------------------------ */
 
@@ -202,16 +199,16 @@ h3 {
 
 .side-bar {
     flex: 1;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
     background-color: #F2F2F2;
     border-radius: 25px;
 }
 
 .sidebar-card {
-    flex: 1;
     background-color: white;
     border-radius: 25px;
-    width: 270px;
-    height: 180px;
     margin: 20px;
 }
 
