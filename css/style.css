@@ -185,7 +185,6 @@ h3 {
 
 .accommodations-section {
     display: flex;
-    align-items: flex-start;
 }
 
 .main-title {
@@ -206,7 +205,6 @@ h3 {
 
 .main-card {
     width: 25%;
-    height: 50%;
     background-color: white;
     border-radius: 25px;
     margin: 20px;
@@ -244,11 +242,8 @@ h3 {
     flex: 1;
     display: flex;
     flex-flow: wrap column;
-    justify-content: center;
     background-color: #F2F2F2;
     border-radius: 25px;
-    width: 25%;
-    height: auto;
 }
 
 .sidebar-card {
