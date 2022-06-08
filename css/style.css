@@ -213,7 +213,7 @@ h3 {
 }
 
 .main-card:hover {
-    background-color: #dbdbdb;
+    background-color: #eaeaea;
     cursor: pointer;
     transform: scale(1.03);
 }
@@ -277,7 +277,7 @@ h3 {
 }
 
 .sidebar-card:hover {
-    background-color: #dbdbdb;
+    background-color: #eaeaea;
     cursor: pointer;
     transform: scale(1.03);
 }
@@ -321,7 +321,7 @@ h3 {
   }
 
   .card:hover {
-      background-color: #F2F2F2;
+      background-color: #eaeaea;
       cursor: pointer;
       transform: scale(1.03);
   }
