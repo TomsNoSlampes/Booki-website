@@ -191,6 +191,7 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    margin: 20px 0 20px 50px;
 }
 
 .accommodations-cards {
@@ -214,7 +215,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 8px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -228,6 +229,11 @@ h3 {
 
 .show-more {
     width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0 20px 50px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* Side-bar section ------------------------------------------------------------------------------ */
@@ -237,6 +243,14 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.sidebar-title h1 {
+    margin: 20px 0 20px 25px;
+}
+
+.side-bar i {
+    margin: 20px 25px 20px 0;
 }
 
 .side-bar {
@@ -258,7 +272,7 @@ h3 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 10px;
+    padding: 8px;
 }
 
 .sidebar-card-txt {
