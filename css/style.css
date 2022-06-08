@@ -298,9 +298,9 @@ h3 {
   }
 
   .card p {
-      padding-left: 10px;
+      padding: 10px 15px 15px 15px;
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
   }
 
 /* Activities section */
