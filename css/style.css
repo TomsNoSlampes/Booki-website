@@ -234,6 +234,11 @@ h3 {
     border-radius: 20px 20px 0 0;
 }
 
+.main-card-img img {
+    height: 177px;
+    background-size: cover;
+}
+
 .main-card-txt {
     display: flex;
     justify-content: center;
@@ -271,6 +276,7 @@ h3 {
 .side-bar {
     flex: 1;
     display: flex;
+    justify-content: space-around;
     flex-flow: wrap column;
     background-color: #F2F2F2;
     border-radius: 25px;
@@ -293,8 +299,8 @@ h3 {
 .sidebar-card-img {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     padding: 8px;
+    max-width: 30%;
 }
 
 .sidebar-card-txt {
