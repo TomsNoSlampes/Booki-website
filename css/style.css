@@ -115,6 +115,10 @@ h3 {
      outline: none;
   }
 
+.my-button:hover {
+    background-color: #f6f6f6;
+    cursor: pointer;
+}
 
 .btn {
     display: flex;
@@ -127,13 +131,8 @@ h3 {
     background-color: #DEEBFF;
 }
 
-.info-btn {
-    margin: 10px;
-    font-size: 20px;
-}
-
 .filter-name {
-    padding: 0 10px;
+       padding: 0 10px;
 }
 
 .filter-section {
@@ -148,6 +147,11 @@ h3 {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
+}
+
+.info-btn {
+    margin: 10px;
     font-size: 20px;
 }
 
@@ -174,6 +178,10 @@ h3 {
 }
 
 .fa-dog {
+    color: #0065FC;
+}
+
+.fa-info-circle {
     color: #0065FC;
 }
 
