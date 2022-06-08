@@ -209,6 +209,13 @@ h3 {
     background-color: white;
     border-radius: 25px;
     margin: 20px;
+    box-shadow: -4px 7px 6px 2px #dbdbdb;
+}
+
+.main-card:hover {
+    background-color: #dbdbdb;
+    cursor: pointer;
+    transform: scale(1.03);
 }
 
 .main-card-img {
@@ -266,6 +273,13 @@ h3 {
     background-color: white;
     border-radius: 25px;
     margin: 20px;
+    box-shadow: -4px 7px 6px 2px #dbdbdb;
+}
+
+.sidebar-card:hover {
+    background-color: #dbdbdb;
+    cursor: pointer;
+    transform: scale(1.03);
 }
 
 .sidebar-card-img {
@@ -303,7 +317,13 @@ h3 {
     flex: 1;
     flex-direction: column;
     margin: 25px;
-    box-shadow: -4px 7px 6px 2px #f2f2f2;
+    box-shadow: -4px 7px 6px 2px #dbdbdb;
+  }
+
+  .card:hover {
+      background-color: #F2F2F2;
+      cursor: pointer;
+      transform: scale(1.03);
   }
   
   .card img {
